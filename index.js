@@ -20,70 +20,70 @@
 // */
 // //?*************************
 
-// // 5
-// // let toplam = 0;
-// // let n = +prompt("lütfen bir sayı giriniz");
-// // for (let i = 1; i <= n; i++) {
-// //   toplam += i;
+// 5
+// let toplam = 0;
+// let n = +prompt("lütfen bir sayı giriniz");
+// for (let i = 1; i <= n; i++) {
+//   toplam += i;
 
-// // }
-// // console.log(toplam);
-// // let n = +prompt("kaç adet tamsayı istıyorsunuz ");
-// // let rasgele = 0;
-// // for (let i = 1; i <= n; i++) {
-// //   rasgele = Math.trunc(Math.random() * 100);
-// //   console.log(`${i} sayınız ${rasgele}`);
-// // }
+// }
+// console.log(toplam);
+// let n = +prompt("kaç adet tamsayı istıyorsunuz ");
+// let rasgele = 0;
+// for (let i = 1; i <= n; i++) {
+//   rasgele = Math.trunc(Math.random() * 100);
+//   console.log(`${i} sayınız ${rasgele}`);
+// }
 
-// // let sayı = +prompt("lütfen bir sayı giriniz");
-// // let sonuc = true;
-// // for (let i = 2; i < sayı; i++) {
-// //   if (sayı % i == 0) {
-// //     sonuc = false;
+// let sayı = +prompt("lütfen bir sayı giriniz");
+// let sonuc = true;
+// for (let i = 2; i < sayı; i++) {
+//   if (sayı % i == 0) {
+//     sonuc = false;
 
-// //     break;
-// //   }
-// // }
-// // console.log(sonuc > false ? "asaldır" : "sayınız asal değil");
+//     break;
+//   }
+// }
+// console.log(sonuc > false ? "asaldır" : "sayınız asal değil");
 
-// // let number3 = +prompt("Please enter the number");
-// // let isPrime = number3>=2;
-// // for (let i = 2; i < number3; i++) {
-// //     if (number3 % i == 0) {
-// //     isPrime = false;
-// //     break;
-// //     }
-// // }
-// // console.log(isPrime>0 ? "Asal" : "Asal degil");
+// let number3 = +prompt("Please enter the number");
+// let isPrime = number3>=2;
+// for (let i = 2; i < number3; i++) {
+//     if (number3 % i == 0) {
+//     isPrime = false;
+//     break;
+//     }
+// }
+// console.log(isPrime>0 ? "Asal" : "Asal degil");
 
-// // let i = 0;
-// // while (i < 10) {
-// //   console.log(i);
-// //   i++;
-// // }
+// let i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
 
-// // let not = +prompt("lütfen notunuzu giriniz");
+// let not = +prompt("lütfen notunuzu giriniz");
 
-// // while (not >= 100 || not < 0) {
-// //   console.log("notunuz sıfırdan  küçük yada yüzden büyük olamaz ");
-// //   not = prompt("tekrar notunuzu giriniz");
-// // }
-// // console.log("notunuz doğru");
+// while (not >= 100 || not < 0) {
+//   console.log("notunuz sıfırdan  küçük yada yüzden büyük olamaz ");
+//   not = prompt("tekrar notunuzu giriniz");
+// }
+// console.log("notunuz doğru");
 
-// // for (let i = 0; i <= 10; i++) {
-// //   if (i % 2 == 0) {
-// //     console.log("kamil");
-// //   } else {
-// //     console.log("arıcı");
-// //   }
-// // }
+// for (let i = 0; i <= 10; i++) {
+//   if (i % 2 == 0) {
+//     console.log("kamil");
+//   } else {
+//     console.log("arıcı");
+//   }
+// }
 
-// // let toplam = 0;
-// // for (let i = 50; i >= 1; i--) {
-// //   toplam += i;
-// //   console.log(i);
-// // }
-// // console.log(toplam);
+// let toplam = 0;
+// for (let i = 50; i >= 1; i--) {
+//   toplam += i;
+//   console.log(i);
+// }
+// console.log(toplam);
 
 // let i = 0;
 // while (i <= 10) {
@@ -144,7 +144,7 @@
 //   let result;
 //   switch (operator) {
 //     case "+":
-//       // result=n1+n2
+// result=n1+n2
 //       result = add(n1, n2);
 //       break;
 //     case "-":
@@ -162,11 +162,11 @@
 //   }
 //   return result;
 // };
-// // const n1 = +prompt("first number");
-// // const n2 = +prompt("second number");
+// const n1 = +prompt("first number");
+// const n2 = +prompt("second number");
 // const operator = prompt("operator:");
 
-// // console.log(`${n1}${operator}${n2} =${compute(n1, n2, operator)}`);
+// console.log(`${n1}${operator}${n2} =${compute(n1, n2, operator)}`);
 
 // const facto = (n) => {
 //   let f = 1;
@@ -182,7 +182,7 @@
 
 // function küp(sayı) {
 //   let sonuç = sayı * sayı * sayı;
-//   // console.log(sonuç);
+// console.log(sonuç);
 // }
 // sonuç;
 
