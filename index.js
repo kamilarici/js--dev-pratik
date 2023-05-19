@@ -604,26 +604,27 @@ function pozitif(k) {
 pozitif(12);
 
 //! **********tw1************
-// let input1 = "days. big make things little";
+let input1 = "days. big make things little";
 
-// let son = "";
-// function output(input1) {
-//   input1 = input1.split(" ");
-//   for (let i = input1.length - 1; i >= 0; i--) {
-//     son += input1[i] + " ";
-//   }
-//   return son;
-// }
-// console.log(output(input1));
+let son = "";
+function output(input1) {
+  input1 = input1.split(" ");
+
+  for (let i = input1.length - 1; i >= 0; i--) {
+    son += input1[i] + " ";
+  }
+  return son;
+}
+console.log(output(input1));
 
 // //! ********* tw2**********
-// let cümle = "Clarusway Rocks!";
+let cümle = "Clarusway Rocks!";
 
-// function ttersi(cümle) {
-//   let son = "";
-//   for (let i = cümle.length - 1; i >= 0; i--) {
-//     son += cümle[i];
-//   }
-//   return son;
-// }
-// console.log(ttersi(cümle));
+function ttersi(cümle) {
+  let son = "";
+  for (let i = cümle.length - 1; i >= 0; i--) {
+    son += cümle[i];
+  }
+  return son;
+}
+console.log(ttersi(cümle));
