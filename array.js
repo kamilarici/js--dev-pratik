@@ -13,6 +13,17 @@ const ogrenciler = [
   { id: 44, isim: "ceren", yas: 30 },
 ];
 
+const y =
+  ogrenciler.map((x) => x.yas).reduce((x, y) => x + y) / ogrenciler.length;
+console.log(y);
+// let a = ogrenciler.yas.reduce((x, y) => x + y);
+
+// çift 40 büyük maaş toplamı
+//! ******************************************
+const tam = ogrenciler2
+  .filter((x) => x.id % 2 === 0 && x.yas > 40)
+  .reduce((x, y) => x + y.maas, 0);
+console.log(tam);
 // let c = ogrenciler.push({ id: 15, isim: "kml", yas: 33 });
 // console.log(c);
 // console.log(ogrenciler);
